@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<html>
+    <body >
+        <form action="showResults" method=GET>
+            <h1>Enter The Url With Which you want to analyze the reviews</h1>
+            <h3>Note that this only scans the first 30 reviews</h3>
+            <h4>Please note that this takes a while due to the Natural Languange Processing, please wait for at least 5-7 minutes as the model processes the reviews.</h4>
+            {{form.as_p}}
+            <input style="width: 90%; text-align: center;" type="text" name = 'givenUrl' required></input>
+            </br>
+            </br>
+            <button type="submit">Send</button>
+        </form>
+    </body>
+</html>
+{% endblock %}

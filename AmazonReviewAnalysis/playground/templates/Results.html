@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<html>
+    <body>
+        <h2>Highest Positive Score: {{Highest_Positive}} </h2>
+        <h2>Highest Negative Score: {{Highest_Negative}} </h2>
+        <h2>Highest Neutral Score: {{Highest_Neutral}} </h2>
+        <h2>Most Positve Review: {{ Highest_Positive_Rev }} </h2>
+        <h2>Most Negative Review: {{ Highest_Negative_Rev }} </h2>
+        <h2>Most Neutral Review: {{ Highest_Neutral_Rev }} </h2>
+        <h2>Average Positive Score: {{ Average_Positive }} </h2>
+        <h2>Average Negative Score: {{ Average_Negative }} </h2>
+        <h2>Average Neutral Score: {{ Average_Neutral }} </h2>
+        <h2>Results: {{DisplayMessage}}</h2>
+    </body>
+</html>
+{% endblock %}
