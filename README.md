@@ -7,6 +7,7 @@
 ## Languages and Technologies Used
 Python,
 Django,
+VS Code
 Docker,
 SPLASH [HTTP API That Scrapes JS data from a website],
 HTML 5,
