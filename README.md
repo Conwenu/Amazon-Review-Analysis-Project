@@ -1,6 +1,8 @@
 ## Amazon-Review-Analysis-Project
 
-## This application allows users to Create, Read, and Delete Blog Posts as well as comment and like said posts.
+## This analyzes amazon reviews from a given URL and provides the results to the user
+
+## [Youtube Video Demo](https://youtu.be/iRUQ8WAZhH4)
 
 ## Languages and Technologies Used
 Python,
